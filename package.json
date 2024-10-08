@@ -1,0 +1,24 @@
+{
+  "name": "onchain-contributions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A project for managing on-chain contributions.",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.0.0",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "jest": "^10.0.0"
+  }
+}
