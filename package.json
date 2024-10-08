@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "jest"
   },
   "keywords": [],
@@ -12,13 +12,15 @@
   "description": "A project for managing on-chain contributions.",
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
     "ethers": "^5.0.0",
     "express": "^4.21.0",
+    "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^8.7.0"
   },
   "devDependencies": {
-    "jest": "^10.0.0"
+    "jest": "^29.0.0"
   }
 }
